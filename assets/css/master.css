@@ -1,0 +1,71 @@
+.mymenu {
+    >li {
+        &:hover {
+           >a{
+            color: red!important;
+           }
+        }
+    }
+
+}
+.first{
+    transition: .5s;
+    &:hover{
+        background-color: rgba(156, 6, 6, 0.582) !important;
+    }
+}
+
+.bg1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/home_slider_@2x2.jpg);
+    background-size: cover;
+}
+
+.bg2 {
+    width: 100%;
+    height: 200vh;
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+}
+
+.txt {
+    >h6 {
+        transition: .4s;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+.name{
+    >figure{
+        &:hover{
+            >figcaption{
+                transition: .4s;
+                color: red;
+            }
+        }
+    }
+}
+.bg3 {
+    width: 100%;
+    height: 240vh;
+    background-image: url(../img/background33.jpg);
+    background-size: cover;
+}
+.link{
+    transition: .5s;
+    &:hover{
+        background-color: rgba(228, 16, 16, 0.589) !important;
+    }
+}
+.me{
+    >h5{
+        transition: .4s;
+
+        &:hover {
+            color: rgb(58, 57, 57);
+        }
+    }
+}
